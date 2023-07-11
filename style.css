@@ -151,3 +151,35 @@ header {
     text-decoration: underline;
     padding-top: 32px;
 }
+
+/* Shop Feature Area */
+
+.shop-feature-wrap {
+    padding-bottom: 128px;
+}
+
+.shop-feature {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 85px 175px;
+    background: rgb(39, 39, 39, .15);
+    border-radius: 8px;
+}
+
+.shop-feature > .shop-fitem {
+    text-align: center;
+}
+
+.shop-feature > .shop-fitem img {
+    width: 80px;
+    height: auto;
+    padding-bottom: 24px;
+}
+
+
+/* ---------- Call To Action Area ------------ */
+
+.call_to_action {
+    padding: ;
+}
