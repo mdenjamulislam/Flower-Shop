@@ -1,0 +1,153 @@
+/* 
+    Template Name: Flower Shop
+    Author Name: MD Enjamul Islam
+    Versio: 1.0
+
+
+*/
+
+
+/* ----------- Common Style ------------ */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #272727;
+}
+
+a, a:hover {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+.container {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.btn-primary {
+    padding: 20px 43px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    background-color: #E55473;
+    border-radius: 8px;
+    border: none;
+    outline: 0;
+}
+
+.section-title {
+    text-align: center;
+}
+
+.section-title h2.heading {
+    font-size: 40px;
+    font-weight: 700;
+    padding-bottom: 24px;
+}
+
+.section-title p {
+    width: 595px;
+    margin: 0 auto;
+    padding-bottom: 48px;
+}
+
+/* --------- Start Header Area ---------- */
+
+header {
+    padding-top: 50px;
+    background: rgb(229, 84, 115, .10);
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+
+}
+
+.banner .banner-pic {
+    width: 635px;
+    height: auto;
+}
+
+.banner-cont h1.banner-title {
+    font-size: 80px;
+    font-weight: 900;
+    color: #272727;
+    padding-bottom: 32px;
+    line-height: 96px;
+}
+
+.banner-cont p {
+    width: 634px;
+    padding-bottom: 32px;
+}
+
+/* --------- Start Feature Area ---------- */
+
+.feature {
+    padding-top: 178px;
+    padding-bottom: 128px;
+}
+
+.feature-wrap {
+    display: flex;
+    justify-content: space-around;
+}
+
+.feature-item {
+    text-align: center;
+    margin-right: 24px;
+    
+}
+
+.feature-item:last-child {
+    margin-right: 0;
+}
+
+.feature-item figure {
+    width: 464px;
+    height: 538px;
+    display: flex;
+    border-radius: 50% 50% 0 0;
+    padding-top: 110px;
+    padding-left: 76px;
+    padding-right: 76px;
+    background: rgb(167, 33, 98, .15);
+}
+
+.feature-item:nth-child(1) {}
+
+.feature-item:nth-child(2) figure {
+    align-items: center;
+    background: rgb(5, 151, 160, .15);
+}
+
+.feature-item:nth-child(3) figure {
+    background: rgb(71, 175, 17, .15);
+}
+
+.feature-item h4 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration: underline;
+    padding-top: 32px;
+}
