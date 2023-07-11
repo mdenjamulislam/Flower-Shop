@@ -53,6 +53,10 @@ img {
     outline: 0;
 }
 
+.text-primary {
+    color: #E55473;
+}
+
 .section-title {
     text-align: center;
 }
@@ -181,5 +185,53 @@ header {
 /* ---------- Call To Action Area ------------ */
 
 .call_to_action {
-    padding: ;
+    padding: 100px 0;
+    background-color: rgb(229, 85, 115, .15);
+}
+
+.call_to_action .container {
+    display: flex;
+    align-items: center;
+}
+
+.call_to_action .cta-cont {
+    width: 594px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.call_to_action .cta-cont h2 {
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 48px;
+    padding-left: 24px;
+}
+
+.call_to_action .cta-cont p {
+    padding-bottom: 32px;
+}
+
+.call_to_action .cta-img {
+    padding-right: 150px;
+}
+
+.call_to_action .cta-img > img {
+    width: 318px;
+    height: auto;
+}
+
+/* ------------ Start instagram-feed Area ----------- */
+
+.instagram-feed {
+    padding: 128px 0;
+}
+
+.instagram-post {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.instagram-post figure.insta-post-item {
+    margin-right: 24px;
 }
