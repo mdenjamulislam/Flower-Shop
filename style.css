@@ -181,6 +181,10 @@ header {
     padding-bottom: 24px;
 }
 
+.shop-feature > .shop-fitem p {
+    color: rgb(39, 39, 39, .8);
+}
+
 
 /* ---------- Call To Action Area ------------ */
 
